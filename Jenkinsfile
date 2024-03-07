@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git branch:'main', url:'https://github.com/JairoDH/jenkins.git'
+                git branch:'master', url:'https://github.com/JairoDH/jenkins.git'
             }
         }
         stage('Install') {
